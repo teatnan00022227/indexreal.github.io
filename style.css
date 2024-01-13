@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(255, 255, 255);
+}
+.nav-link:hover {
+    color: #fff;
+}
+.nav-link {
+    text-align: center;
+}
+.navbar-brand {
+    margin-left: 1.5rem;
+}
+.price {
+    position: absolute;
+    right: 10%;
+    bottom: 3%;
+    font-weight: bold;
+    font-size: .8rem;
+}
+.imag img{
+    width: 30%;
+}
+.inp {
+    width: 30px;
+    border: 1px solid #000;
+    outline-color: aqua;
+}
+.tp {
+    position: absolute;
+    right: 10%;
+}
+.card-ch {
+    height: 350px;
+    margin: 10px 0;
+}
+.card-img-top {
+    height: 150px;
+}
+.bt {
+    position: absolute;
+    bottom: 2%;
+    background-color: #ffffff;
+    color: black; 
+    border: 2px solid #00ccff;
+    border-radius: 3px;
+    padding: 3px 7px;
+    font-size: .6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 45px;
+}
+.bt:hover {
+    background-color: rgb(0, 255, 149); 
+    color: rgb(0, 0, 0);
+}
+/* buy now price */
+.bp {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.bbtn {
+    background-color: dodgerblue;
+}
